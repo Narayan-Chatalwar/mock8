@@ -42,6 +42,7 @@ const handleregister=()=>{
     email:email,
     pass:pass
   }
+  saveData("user",params);
   if(fname&&lname&&email&&pass)
   {
     alert("Register success");
@@ -51,7 +52,7 @@ const handleregister=()=>{
     alert("Register Error fill all the spaces")
   }
 
-  saveData("user",params);
+  
 }
 
 
