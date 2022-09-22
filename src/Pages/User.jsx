@@ -83,8 +83,8 @@ const User = () => {
             placeholder="Select Category"
             onChange={(e) => setSortby(e.target.value)}
           >
-            <option value="lth">Low to high</option>
-            <option value="high">High to low</option>
+            <option value="asc">Low to high</option>
+            <option value="desc">High to low</option>
           </Select>
         </Flex>
       </Box>
